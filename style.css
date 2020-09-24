@@ -1,4 +1,4 @@
-import "@../navbar_style.css";
+
 
 #Return_to_top {
     float: right;
@@ -114,9 +114,13 @@ import "@../navbar_style.css";
 }
 
 #main-doc h1 {
-    text-align: center;
+    text-align: left;
     font-family: verdana, sans-serif;
-    padding: 0 0 50px 0;
+    padding: 0;
+}
+
+#main-doc h4 {
+    font-family: Verdana, sans-serif;
 }
 
 .main-section {
@@ -134,11 +138,6 @@ import "@../navbar_style.css";
     min-width: 500px;
     width: 60%;
     font-family: Verdana, sans-serif;
-}
-
-.main-section li {
-    font-weight: bold;
-}
 }
 
 .li-detail {
