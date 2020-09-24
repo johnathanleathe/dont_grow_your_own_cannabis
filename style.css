@@ -143,3 +143,9 @@
 .li-detail {
     font-size: 15px;
 }
+
+#Copyright {
+    position: fixed;
+    bottom: 0;
+    text-justify: center;
+}
