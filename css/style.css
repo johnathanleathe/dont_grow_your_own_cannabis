@@ -1,0 +1,157 @@
+
+
+#Return_to_top {
+    float: right;
+    right: 20%;
+    top: 1%;
+    left: 80%;
+    position: fixed;
+    background: rgb(29, 28, 28);
+    color: white;
+    border-radius: 4px;
+    width: 80px;
+    height: 25px;
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
+
+}
+
+#Return_to_top a {
+    color: white;
+    text-decoration: none;
+}
+
+#Return_to_top a:hover {
+    cursor: pointer;
+}
+
+#navbar {
+    float: left;
+    width: 400px;
+    height: 100%;
+    min-height: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    border-right: solid;
+    border-color: black;
+    left: 0;
+    min-width: 290px;
+    font-family: verdana, sans-serif;
+    
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #343d52;
+}
+
+#navbar a:hover {
+    color: white;
+    cursor: pointer;
+    background: lightgray;
+}
+
+#navbar li {
+    list-style: none;
+    border-top: 1px solid black;
+    padding-left: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#navbar li:hover {
+    background: lightgray;
+}
+
+#navbar ul {
+    margin-top: 42px;
+    width: 400px;
+    left: 0;
+    padding-left: 0;
+    margin-left: 0;
+    line-height: 50px;
+    position: absolute;
+}
+
+#navbar header {
+    margin: 10px;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 0;
+    padding-left: 20px;
+    padding-bottom: 0;
+    color: white;
+    width: 100%;
+}
+
+#navbar-header-container {
+    width: 400px;
+    top: 0; 
+    left: 0;
+    position: absolute;
+    background-image: linear-gradient(90deg, #013220, #024B30, #013220);
+}
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#main-doc {
+    position: absolute;
+    margin-left: 410px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+#main-doc h1 {
+    text-align: left;
+    font-family: verdana, sans-serif;
+    padding: 0;
+}
+
+#main-doc h4 {
+    font-family: Verdana, sans-serif;
+}
+
+.main-section {
+    font-family: Geneva, sans-serif;
+    padding: 50px 0 50px 15px;
+}
+
+.main-section header {
+    font-size: 24px;
+    padding: 0 0 20px 0;
+    font-weight: bold;
+}
+
+.main-section p {
+    min-width: 500px;
+    width: 60%;
+    font-family: Verdana, sans-serif;
+}
+
+.li-detail {
+    font-size: 15px;
+}
+
+#Copyright {
+    position: fixed;
+    bottom: 0;
+    text-justify: center;
+}
+
+@media screen and (min-width: 900px) {
+    body {
+      background-color: lavender;
+    }
+  }
